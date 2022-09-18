@@ -1,0 +1,22 @@
+GET http://localhost:3333/games/d1617110-4904-42c8-bf31-be75f22a6c93/ads
+
+###
+POST http://localhost:3333/games/d1617110-4904-42c8-bf31-be75f22a6c93/ads
+Content-Type: application/json
+
+{
+    "name":"tir4y",
+    "yearsPlaying": 2,
+    "discord": "tir4y",
+    "weekDays" : [0,1],
+    "hourStart": "15:00",
+    "hourEnd" : "16:00",
+    "useVoiceChannel" : true
+}
+
+### Get Discord by Ad Id
+GET http://localhost:3333/ads/e4a7b242-e23b-4959-ac1b-d1466ba0bc5d/discord
+
+###
+GET http://localhost:3333/games
+
